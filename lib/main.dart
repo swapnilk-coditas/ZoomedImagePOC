@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ZoomAndDragImageOne.dart';
+import 'ZoomAndDragImage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ZoomAndDragImageOne(imageUrl: 'assets/images/dvip_image.jpg'),
+      home: ZoomAndDragImage(imageUrl: 'assets/images/dvip_image.jpg'),
     );
   }
 }

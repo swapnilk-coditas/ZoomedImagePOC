@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
 
-class ZoomAndDragImageOne extends StatefulWidget {
+class ZoomAndDragImage extends StatefulWidget {
   final String imageUrl;
 
-  const ZoomAndDragImageOne({super.key, required this.imageUrl});
+  const ZoomAndDragImage({super.key, required this.imageUrl});
 
   @override
   _ZoomAndDragImageState createState() => _ZoomAndDragImageState();
 }
 
-class _ZoomAndDragImageState extends State<ZoomAndDragImageOne> {
+class _ZoomAndDragImageState extends State<ZoomAndDragImage> {
   Offset imageOffset = Offset.zero;
   double imageScale = 1.0;
   late double scaleCopy;
